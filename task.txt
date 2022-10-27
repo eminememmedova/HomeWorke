@@ -1,0 +1,173 @@
+   Task1
+ JS
+let firstNumber = 3;
+let secondNumber = 4;
+let multiplyingOfTwoNum = firstNumber * let secondNumber;
+console.log("Multiplying Of Two Num": multiplyingOfTwoNum);
+
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+         {
+      int firstNumber = 3;
+      int secondNumber = 4;
+      Console.WriteLine(firstNumber * secondNumber);  
+     }
+    }
+}
+
+Task2
+Js
+const num = 5;
+const power = 2;
+console.log("Power of num:", num ** power);
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+                Double num, power, result;
+ 
+        num = 2;
+        power = 3;
+        result = Math.Pow(num, power);
+        Console.WriteLine($"Pow({num},{power}) = {result}");
+    }
+}
+Task3
+Js
+let num = 123;
+let newNum = 123 / 10;
+console.log(Math.floor(newNum));
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int num = 123;
+        int newNum = 123 / 10;
+        Console.WriteLine(newNum);
+        
+    }
+}
+Task4
+Js
+
+let num = 123;
+let newNum = 123 - 120;
+console.log(newNum);
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int num = 123;
+        int newNum = 123 - 120;
+        Console.WriteLine(newNum);
+        
+    }
+}
+Task5
+Js
+function revInt(num) {
+  let val = num.toString().split('').reverse().join('');
+  if (val.endsWith('-')) {
+    val = '-' + val;
+      return parseInt(val);
+  }
+      return parseInt(val);
+}
+
+console.log(revInt(123));
+C#
+using System;  
+  public class ReverseExample  
+   {  
+     public static void Main(string[] args)  
+      {  
+       int  n, reverse=0, rem;           
+       Console.Write("Enter a number: ");      
+       n= int.Parse(Console.ReadLine());     
+       while(n!=0)      
+       {      
+        rem=n%10;        
+        reverse=reverse*10+rem;      
+        n/=10;      
+       }      
+       Console.Write("Reversed Number: "+reverse);       
+    }  
+  }  
+Task6
+Js
+    let Money = 10;
+        let price1cake = 2;
+        let countOfCake = Money / price1cake;
+        console.log(countOfCake);
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int Money = 10;
+        int price1cake = 2;
+        int countOfCake = Money / price1cake;
+        Console.WriteLine(countOfCake);
+        
+    }
+}
+Task7
+Js
+     const tili  = 5;
+      const Sahe = 2;
+      const hecm = 3 ;
+      console.log("Kubun sahesi:", tili ** Sahe);
+      console.log("Kubun sahesi:", tili ** hecm);
+C#
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+                Double teref, sahe, hecm, result;
+ 
+        teref = 5;
+        sahe = 2;
+        hecm = 3;
+        result = Math.Pow(teref, sahe);
+        Console.WriteLine($"Sahe = {result}");
+        
+            result = Math.Pow(teref, hecm);
+        Console.WriteLine($"Hecm = {result}");
+    }
+}
+Task8
+Js
+              let firstNum = 123;
+              let secondNum = 123 / 10;
+              console.log("ThirdNum:", "3" + Math.floor(secondNum));
+C#
+              using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int num = 123;
+        int newNum = 123 / 10;
+        Console.WriteLine("3" + newNum);
+        
+    }
+}
